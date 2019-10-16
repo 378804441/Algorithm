@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		35E8EF3E2356A4DB0060D8DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8EF3D2356A4DB0060D8DB /* main.m */; };
+		35E8EF472356A5B20060D8DB /* UnionFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8EF462356A5B20060D8DB /* UnionFind.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		35E8EF3A2356A4DB0060D8DB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E8EF3D2356A4DB0060D8DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35E8EF452356A5B20060D8DB /* UnionFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnionFind.h; sourceTree = "<group>"; };
+		35E8EF462356A5B20060D8DB /* UnionFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnionFind.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		35E8EF3C2356A4DB0060D8DB /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				35E8EF442356A5990060D8DB /* UnionFind(并查集) */,
 				35E8EF3D2356A4DB0060D8DB /* main.m */,
 			);
 			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		35E8EF442356A5990060D8DB /* UnionFind(并查集) */ = {
+			isa = PBXGroup;
+			children = (
+				35E8EF452356A5B20060D8DB /* UnionFind.h */,
+				35E8EF462356A5B20060D8DB /* UnionFind.m */,
+			);
+			path = "UnionFind(并查集)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E8EF472356A5B20060D8DB /* UnionFind.m in Sources */,
 				35E8EF3E2356A4DB0060D8DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
