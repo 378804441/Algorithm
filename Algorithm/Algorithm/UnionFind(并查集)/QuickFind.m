@@ -1,15 +1,14 @@
 //
-//  UnionFind.m
+//  QuickFind.m
 //  Algorithm
 //
-//  Created by 丁巍 on 2019/10/16.
+//  Created by 丁巍 on 2019/10/18.
 //  Copyright © 2019 丁巍. All rights reserved.
 //
 
-#import "UnionFind.h"
+#import "QuickFind.h"
 
-
-@implementation UnionFind
+@implementation QuickFind
 
 
 #pragma mark - abstract method

@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BubbleSort.h"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        BaseSort *sort = [BubbleSort new];
+        [sort sort];
+        
+        
     }
     return 0;
 }

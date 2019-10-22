@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35375270235E8D2E0020677E /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 3537526F235E8D2E0020677E /* BubbleSort.m */; };
+		35375274235E8D580020677E /* BaseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 35375273235E8D580020677E /* BaseSort.m */; };
+		35CEE0282359459E00E5DC8F /* QuickFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CEE0272359459E00E5DC8F /* QuickFind.m */; };
+		35CEE02B235945D700E5DC8F /* QuickUnion.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CEE02A235945D700E5DC8F /* QuickUnion.m */; };
 		35E8EF3E2356A4DB0060D8DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8EF3D2356A4DB0060D8DB /* main.m */; };
-		35E8EF472356A5B20060D8DB /* UnionFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8EF462356A5B20060D8DB /* UnionFind.m */; };
 		35FF99412357F6C400F38C72 /* UnionFindBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FF99402357F6C400F38C72 /* UnionFindBase.m */; };
 /* End PBXBuildFile section */
 
@@ -25,10 +28,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3537526E235E8D2E0020677E /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		3537526F235E8D2E0020677E /* BubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
+		35375272235E8D580020677E /* BaseSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSort.h; sourceTree = "<group>"; };
+		35375273235E8D580020677E /* BaseSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseSort.m; sourceTree = "<group>"; };
+		35CEE0262359459E00E5DC8F /* QuickFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickFind.h; sourceTree = "<group>"; };
+		35CEE0272359459E00E5DC8F /* QuickFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickFind.m; sourceTree = "<group>"; };
+		35CEE029235945D700E5DC8F /* QuickUnion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickUnion.h; sourceTree = "<group>"; };
+		35CEE02A235945D700E5DC8F /* QuickUnion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickUnion.m; sourceTree = "<group>"; };
 		35E8EF3A2356A4DB0060D8DB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E8EF3D2356A4DB0060D8DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		35E8EF452356A5B20060D8DB /* UnionFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnionFind.h; sourceTree = "<group>"; };
-		35E8EF462356A5B20060D8DB /* UnionFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnionFind.m; sourceTree = "<group>"; };
 		35FF993F2357F6C400F38C72 /* UnionFindBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnionFindBase.h; sourceTree = "<group>"; };
 		35FF99402357F6C400F38C72 /* UnionFindBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnionFindBase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +53,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3537526C235E8CDB0020677E /* Sort(排序) */ = {
+			isa = PBXGroup;
+			children = (
+				3537526D235E8CEE0020677E /* BubbleSort */,
+			);
+			path = "Sort(排序)";
+			sourceTree = "<group>";
+		};
+		3537526D235E8CEE0020677E /* BubbleSort */ = {
+			isa = PBXGroup;
+			children = (
+				35375272235E8D580020677E /* BaseSort.h */,
+				35375273235E8D580020677E /* BaseSort.m */,
+				3537526E235E8D2E0020677E /* BubbleSort.h */,
+				3537526F235E8D2E0020677E /* BubbleSort.m */,
+			);
+			path = BubbleSort;
+			sourceTree = "<group>";
+		};
 		35E8EF312356A4DB0060D8DB = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +91,7 @@
 		35E8EF3C2356A4DB0060D8DB /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				3537526C235E8CDB0020677E /* Sort(排序) */,
 				35E8EF442356A5990060D8DB /* UnionFind(并查集) */,
 				35E8EF3D2356A4DB0060D8DB /* main.m */,
 			);
@@ -72,10 +101,12 @@
 		35E8EF442356A5990060D8DB /* UnionFind(并查集) */ = {
 			isa = PBXGroup;
 			children = (
-				35E8EF452356A5B20060D8DB /* UnionFind.h */,
-				35E8EF462356A5B20060D8DB /* UnionFind.m */,
 				35FF993F2357F6C400F38C72 /* UnionFindBase.h */,
 				35FF99402357F6C400F38C72 /* UnionFindBase.m */,
+				35CEE0262359459E00E5DC8F /* QuickFind.h */,
+				35CEE0272359459E00E5DC8F /* QuickFind.m */,
+				35CEE029235945D700E5DC8F /* QuickUnion.h */,
+				35CEE02A235945D700E5DC8F /* QuickUnion.m */,
 			);
 			path = "UnionFind(并查集)";
 			sourceTree = "<group>";
@@ -137,8 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E8EF472356A5B20060D8DB /* UnionFind.m in Sources */,
+				35375274235E8D580020677E /* BaseSort.m in Sources */,
+				35CEE0282359459E00E5DC8F /* QuickFind.m in Sources */,
+				35375270235E8D2E0020677E /* BubbleSort.m in Sources */,
 				35FF99412357F6C400F38C72 /* UnionFindBase.m in Sources */,
+				35CEE02B235945D700E5DC8F /* QuickUnion.m in Sources */,
 				35E8EF3E2356A4DB0060D8DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
