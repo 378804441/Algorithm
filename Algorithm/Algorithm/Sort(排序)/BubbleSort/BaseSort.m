@@ -7,11 +7,28 @@
 //
 
 #import "BaseSort.h"
+#import <QuartzCore/CABase.h>
 
 @implementation BaseSort
 
 
-- (void)sort{}
+#pragma mark - public method
+
+- (void)sort{
+    double StartTime = CACurrentMediaTime();
+    
+    [self initiaSortlize];
+    
+    double launchTime = (CACurrentMediaTime() - StartTime);
+    printf("排序消耗时间:%f ms\n", launchTime);
+}
+
+
+
+#pragma mark - abstract method
+
+- (void)initiaSortlize{}
+
 
 
 @end

@@ -8,14 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "BubbleSort.h"
+#import "SelectionSort.h"
 
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        BaseSort *sort = [BubbleSort new];
+        BaseSort *sort = [SelectionSort new];
         [sort sort];
-        
         
     }
     return 0;

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		35375270235E8D2E0020677E /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 3537526F235E8D2E0020677E /* BubbleSort.m */; };
 		35375274235E8D580020677E /* BaseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 35375273235E8D580020677E /* BaseSort.m */; };
+		353DF501235FE174008E0797 /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 353DF500235FE174008E0797 /* SelectionSort.m */; };
 		35CEE0282359459E00E5DC8F /* QuickFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CEE0272359459E00E5DC8F /* QuickFind.m */; };
 		35CEE02B235945D700E5DC8F /* QuickUnion.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CEE02A235945D700E5DC8F /* QuickUnion.m */; };
 		35E8EF3E2356A4DB0060D8DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8EF3D2356A4DB0060D8DB /* main.m */; };
@@ -32,6 +33,8 @@
 		3537526F235E8D2E0020677E /* BubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
 		35375272235E8D580020677E /* BaseSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSort.h; sourceTree = "<group>"; };
 		35375273235E8D580020677E /* BaseSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseSort.m; sourceTree = "<group>"; };
+		353DF4FF235FE174008E0797 /* SelectionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
+		353DF500235FE174008E0797 /* SelectionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionSort.m; sourceTree = "<group>"; };
 		35CEE0262359459E00E5DC8F /* QuickFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickFind.h; sourceTree = "<group>"; };
 		35CEE0272359459E00E5DC8F /* QuickFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickFind.m; sourceTree = "<group>"; };
 		35CEE029235945D700E5DC8F /* QuickUnion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickUnion.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				35375273235E8D580020677E /* BaseSort.m */,
 				3537526E235E8D2E0020677E /* BubbleSort.h */,
 				3537526F235E8D2E0020677E /* BubbleSort.m */,
+				353DF4FF235FE174008E0797 /* SelectionSort.h */,
+				353DF500235FE174008E0797 /* SelectionSort.m */,
 			);
 			path = BubbleSort;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 				35375274235E8D580020677E /* BaseSort.m in Sources */,
 				35CEE0282359459E00E5DC8F /* QuickFind.m in Sources */,
 				35375270235E8D2E0020677E /* BubbleSort.m in Sources */,
+				353DF501235FE174008E0797 /* SelectionSort.m in Sources */,
 				35FF99412357F6C400F38C72 /* UnionFindBase.m in Sources */,
 				35CEE02B235945D700E5DC8F /* QuickUnion.m in Sources */,
 				35E8EF3E2356A4DB0060D8DB /* main.m in Sources */,

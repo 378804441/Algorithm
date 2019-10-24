@@ -11,8 +11,7 @@
 @implementation BubbleSort
 
 
-- (void)sort{
-    
+- (void)initiaSortlize{
     NSMutableArray *sortArray = [@[@20, @12, @33, @64, @5, @7, @1, @9, @112] mutableCopy];
     
     for (NSInteger end=sortArray.count-1; end>0; end--) {
@@ -20,14 +19,14 @@
         for (NSInteger begin=0; begin<end; begin++) {
             NSInteger a = [sortArray[begin] integerValue];
             NSInteger b = [sortArray[begin+1] integerValue];
-            if (a > b) {
+            if (a>b) {
                 NSInteger c = a;
                 [sortArray replaceObjectAtIndex:begin withObject:@(b)];
                 [sortArray replaceObjectAtIndex:begin+1 withObject:@(c)];
                 index = begin + 1;
             }
         }
-        index = end;
+        end = index;
     }
     
     NSLog(@"%@", sortArray);
@@ -35,3 +34,5 @@
 
 
 @end
+
+
