@@ -13,24 +13,19 @@
 
 - (void)initiaSortlize{
     
-    NSMutableArray *sortArray = [@[@20, @12, @33, @64, @5, @7, @1, @9, @112] mutableCopy];
     
-    for (NSInteger end=sortArray.count-1; end>0; end--) {
+    for (NSInteger end=self.sortArray.count-1; end>0; end--) {
         NSInteger max = 0;
         for (NSInteger begin=1; begin<=end; begin++) {
-            NSInteger a = [sortArray[max] integerValue];
-            NSInteger b = [sortArray[begin] integerValue];
+            NSInteger a = [self.sortArray[max] integerValue];
+            NSInteger b = [self.sortArray[begin] integerValue];
             if (a <= b) {
                 max = begin;
             }
         }
-        
-        NSInteger c = [sortArray[max] integerValue];
-        [sortArray replaceObjectAtIndex:max withObject:sortArray[end]];
-        [sortArray replaceObjectAtIndex:end withObject:@(c)];
+        [self exchangeWithA:max b:end];
     }
     
-    NSLog(@"%@", sortArray);
 }
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3526CD4E2362870200CD5315 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 3526CD4D2362870200CD5315 /* InsertionSort.m */; };
 		35375270235E8D2E0020677E /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 3537526F235E8D2E0020677E /* BubbleSort.m */; };
 		35375274235E8D580020677E /* BaseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 35375273235E8D580020677E /* BaseSort.m */; };
 		353DF501235FE174008E0797 /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 353DF500235FE174008E0797 /* SelectionSort.m */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3526CD4C2362870200CD5315 /* InsertionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		3526CD4D2362870200CD5315 /* InsertionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
 		3537526E235E8D2E0020677E /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 		3537526F235E8D2E0020677E /* BubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
 		35375272235E8D580020677E /* BaseSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSort.h; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 				35375273235E8D580020677E /* BaseSort.m */,
 				3537526E235E8D2E0020677E /* BubbleSort.h */,
 				3537526F235E8D2E0020677E /* BubbleSort.m */,
+				3526CD4C2362870200CD5315 /* InsertionSort.h */,
+				3526CD4D2362870200CD5315 /* InsertionSort.m */,
 				353DF4FF235FE174008E0797 /* SelectionSort.h */,
 				353DF500235FE174008E0797 /* SelectionSort.m */,
 			);
@@ -178,6 +183,7 @@
 				35375270235E8D2E0020677E /* BubbleSort.m in Sources */,
 				353DF501235FE174008E0797 /* SelectionSort.m in Sources */,
 				35FF99412357F6C400F38C72 /* UnionFindBase.m in Sources */,
+				3526CD4E2362870200CD5315 /* InsertionSort.m in Sources */,
 				35CEE02B235945D700E5DC8F /* QuickUnion.m in Sources */,
 				35E8EF3E2356A4DB0060D8DB /* main.m in Sources */,
 			);
