@@ -13,13 +13,10 @@
 
 - (void)initiaSortlize{
     
-    
     for (NSInteger end=self.sortArray.count-1; end>0; end--) {
-        NSInteger max = 0;
+        NSInteger max=0;
         for (NSInteger begin=1; begin<=end; begin++) {
-            NSInteger a = [self.sortArray[max] integerValue];
-            NSInteger b = [self.sortArray[begin] integerValue];
-            if (a <= b) {
+            if ([self compareWithA:max b:begin] <= 0) {
                 max = begin;
             }
         }

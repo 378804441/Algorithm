@@ -13,21 +13,16 @@
 
 - (void)initiaSortlize{
 
-    
-    for (NSInteger end=self.sortArray.count-1; end>0; end--) {
+    for (NSInteger end=self.sortArray.count-1; end > 0; end--) {
         NSInteger index = 1;
         for (NSInteger begin=0; begin<end; begin++) {
-            NSInteger a = [self.sortArray[begin] integerValue];
-            NSInteger b = [self.sortArray[begin+1] integerValue];
-            if (a > b) {
+            if ([self compareWithA:begin b:begin+1] > 0) {
                 [self exchangeWithA:begin b:begin+1];
                 index = begin+1;
             }
         }
         end = index;
     }
-    
-    
     
 }
 

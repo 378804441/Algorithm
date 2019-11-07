@@ -15,7 +15,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        BaseSort *sort = [InsertionSort new];
+        BaseSort *sort = [SelectionSort new];
         [sort sort];
         
     }

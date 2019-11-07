@@ -37,7 +37,7 @@
     NSInteger valueB = [self.sortArray[b] integerValue];
     if (valueA < valueB) {
         return -1;
-    }else if(valueB > valueA){
+    }else if(valueA > valueB){
         return 1;
     }else{
         return 0;
